@@ -9,7 +9,7 @@ database_id = "1b1bcde5-24f5-46f7-be01-2fb7a3d8e574"
 
 # R2 存储桶配置（用于备份功能，可选）
 #
-#[[r2_buckets]]
+[[r2_buckets]]
 binding = "BACKUP_BUCKET"
 bucket_name = "bookmark-backups"
 #
